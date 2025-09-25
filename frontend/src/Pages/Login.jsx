@@ -44,9 +44,9 @@ const Login = () => {
   return (
     <div>
         <Navbar/>
-    <div style={styles.container}>
+    <div style={styles.container} className="backimage">
       <div style={styles.formContainer}>
-        <h2 style={{ textAlign: "center" }}>Login</h2>
+        <h2 style={{ textAlign: "center",color:"slatewhite", background:"rgb(0, 0, 0, .2)", padding:"10px", borderRadius:"0px 0px 50px 50px" , margin:"0px 0px 20px 0px"}}>Login</h2>
         <form onSubmit={handleLogin}>
           <input
             type="email"
@@ -95,13 +95,13 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: "95vh",
-    background: "#f5f5f5",
+    
   },
   formContainer: {
     width: "350px",
-    padding: "30px",
+    padding: "0px 30px 30px 30px",
     borderRadius: "10px",
-    background: "#fff",
+    background:"rgba(0, 0, 0, .1)",
     boxShadow: "0 0 10px rgba(0,0,0,0.1)",
   },
   input: {
