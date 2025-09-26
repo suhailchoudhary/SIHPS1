@@ -8,7 +8,7 @@ Original file is located at
 """
 
 !pip install fastapi "uvicorn[standard]" pyngrok nest_asyncio transformers peft torch bitsandbytes
-!ngrok authtoken 2vcHiEWaejgZVRUn8NUDnhkE6uu_6oHqTgenn4xBpg9d3Z8p9
+!ngrok authtoken "Use your own token here"
 
 
 
