@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import { Link } from 'react-router-dom';
 import images1 from '../assets/image4.jpg'
+import Chatbot from '../Components/Chatbot';
 
 const Content1 = () => {
   return (
@@ -61,55 +62,55 @@ const Content1 = () => {
 
         </div>
       </div>      
-<div className="hero-container4 pt-5 text-white text-center">
-  <div className="container">
-    <div className="row justify-content-center g-3" style={{textAlign:"justify"}}>
-      <div className="col-md-4 col-lg-5">
-        <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
-          <div className="row g-0">
-            <div className="col-md-4">
-              <img src={images1} className="img-fluid h-100 rounded-start" alt="Sample"/>
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                </p>
-                <p className="card-text">
-                  <small>Last updated 3 mins ago</small>
-                </p>
+      <div className="hero-container4 pt-5 text-white text-center">
+        <div className="container">
+          <div className="row justify-content-center g-3" style={{textAlign:"justify"}}>
+            <div className="col-md-4 col-lg-5">
+              <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
+                <div className="row g-0">
+                  <div className="col-md-4">
+                    <img src={images1} className="img-fluid h-100 rounded-start" alt="Sample"/>
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h5 className="card-title">Card title</h5>
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p className="card-text">
+                        <small>Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+
+            <div className="col-md-4 col-lg-5">
+              <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
+                <div className="row g-0">
+                  <div className="col-md-4">
+                    <img src={images1} className="img-fluid h-100 rounded-start" alt="Sample"/>
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h5 className="card-title">Card title</h5>
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p className="card-text">
+                        <small>Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
-
-      <div className="col-md-4 col-lg-5">
-        <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
-          <div className="row g-0">
-            <div className="col-md-4">
-              <img src={images1} className="img-fluid h-100 rounded-start" alt="Sample"/>
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                </p>
-                <p className="card-text">
-                  <small>Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
+      <Chatbot />
     </div>
   );
 };
