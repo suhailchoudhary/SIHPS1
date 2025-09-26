@@ -20,7 +20,7 @@ const Chatbot = () => {
     setLoading(true); // <-- show loading indicator
 
     try {
-      const res = await axios.post("https://5b7ed835c688.ngrok-free.app/chat", {
+      const res = await axios.post("https://4b3832c27865.ngrok-free.app/chat", {
         question: input
       });
 
