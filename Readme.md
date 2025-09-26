@@ -19,7 +19,7 @@
 
 
 
-### must have .env file in background which contain the following items :
+### must have .env file in backend which contain the following items :
 #### PORT=5000
 #### JWT_SECRET=mySuperSecretKey_1234567890!@
 #### GOOGLE_CLIENT_ID="enter your own key"

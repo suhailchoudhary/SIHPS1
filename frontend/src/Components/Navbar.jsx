@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-sm" style={{backgroundColor:"#01161cff"}}>
                 <div className="container-fluid">
                     {/* Brand stays on the left */}
-                    <Link className="navbar-brand text-white" to={'/'}>NEPTUNE</Link>
+                    <Link className="navbar-brand text-white" to={'/'}>VERIDIAN</Link>
 
                     {/* Toggler for mobile */}
                     <button 
