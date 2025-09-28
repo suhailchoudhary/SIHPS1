@@ -24,92 +24,94 @@ const Content1 = () => {
           </a>
         </div>
       </div>
-      <div className="hero-container2 pt-5 text-white text-center">
-        <div className="text-box2">
-            <h1>
-                Ready to be the part of Solution ?
-            </h1>
-            <p>
-                Explore our services<br/><br/>
-                <br /><br /><br /><br /><br /><br />
-                
-            </p>
-                      <Link to="/login"
-            
-            className="btn btn-outline-light mt-3"
-          >
-            Explore
-          </Link>
+<div className="hero-container2 pt-5 text-white text-center">
+  <div className="text-box2">
+    <h1>Ready to be a Part of the Solution?</h1>
+    <p>
+      Explore our services designed to drive innovation and impact in
+      marine biodiversity, sustainability, and technology.
+      <br/><br/>
+    </p>
+    <Link to="/login" className="btn btn-outline-light mt-3">
+      Explore
+    </Link>
+  </div>
+</div>
 
-        </div>
-      </div>
-      <div className="hero-container3 pt-5 text-white text-center">
-        <div className="text-box2">
-            <h1>
-                Ready to be the part of Solution ?
-            </h1>
-            <p>
-                Explore our services<br/><br/>
-                <br /><br /><br /><br /><br /><br />
-                
-            </p>
-                      <Link to="/login"
-            
-            className="btn btn-outline-light mt-3"
-          >
-            Explore
-          </Link>
+<div className="hero-container3 pt-5 text-white text-center">
+  <div className="text-box2">
+    <h1>Empowering Research & Innovation</h1>
+    <p>
+      From data-driven insights to AI-powered tools, we provide resources
+      that help scientists, innovators, and decision-makers tackle
+      real-world challenges.
+      <br/><br/>
+    </p>
+    <Link to="/login" className="btn btn-outline-light mt-3">
+      Explore
+    </Link>
+  </div>
+</div>
 
-        </div>
-      </div>      
-      <div className="hero-container4 pt-5 text-white text-center">
-        <div className="container">
-          <div className="row justify-content-center g-3" style={{textAlign:"justify"}}>
-            <div className="col-md-4 col-lg-5">
-              <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
-                <div className="row g-0">
-                  <div className="col-md-4">
-                    <img src={images1} className="img-fluid h-100 rounded-start" alt="Sample"/>
-                  </div>
-                  <div className="col-md-8">
-                    <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <p className="card-text">
-                        <small>Last updated 3 mins ago</small>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+<div className="hero-container4 pt-5 text-white text-center">
+  <div className="container">
+    <div className="row justify-content-center g-3" style={{ textAlign: "justify" }}>
+
+      {/* CARD 1 */}
+      <div className="col-md-4 col-lg-5">
+        <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
+          <div className="row g-0">
+            <div className="col-md-4">
+              <img src={images1} className="img-fluid h-100 rounded-start" alt="Marine Data Integration" />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Unified Data Integration</h5>
+                <p className="card-text">
+                  Seamlessly bring together oceanographic, fisheries, and
+                  biodiversity data into a single platform. Enable
+                  cross-disciplinary collaboration for deeper insights.
+                </p>
+                <p className="card-text">
+                  <small>Last updated 2 mins ago</small>
+                </p>
               </div>
             </div>
-
-            <div className="col-md-4 col-lg-5">
-              <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
-                <div className="row g-0">
-                  <div className="col-md-4">
-                    <img src={images1} className="img-fluid h-100 rounded-start" alt="Sample"/>
-                  </div>
-                  <div className="col-md-8">
-                    <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <p className="card-text">
-                        <small>Last updated 3 mins ago</small>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
         </div>
       </div>
+
+      {/* CARD 2 */}
+      <div className="col-md-4 col-lg-5">
+        <div className="card mb-3 text-white cardshome" style={{ background: "none" }}>
+          <div className="row g-0">
+            <div className="col-md-4">
+              <img src={images1} className="img-fluid h-100 rounded-start" alt="AI Insights" />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">AI-Driven Insights</h5>
+                <p className="card-text">
+                  Leverage artificial intelligence for species identification,
+                  trend analysis, and predictive modeling to support sustainable
+                  marine ecosystem management.
+                </p>
+                <p className="card-text">
+                  <small>Last updated 5 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* CARD 3 (Optional, add more cards as needed) */}
+
+
+    </div>
+  </div>
+</div>
+
       <Chatbot />
     </div>
   );
